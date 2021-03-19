@@ -93,6 +93,7 @@ public class DecisionMaking {
         for (int num = 95; num > 0; num -= 5)
             System.out.println(num);
 
+
         //вывести на экран первые 20 элементов последовательносьт 2 4 6 8
         for (int num = 2, i = 1; i <= 20; i++, num +=2){
             System.out.println(num);
