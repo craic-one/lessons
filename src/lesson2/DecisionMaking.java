@@ -27,7 +27,7 @@ public class DecisionMaking {
         } else if (exp < 5) {
             System.out.println("Вы подходите на должность стажера");
         } else {
-            System.out.println("Вы подходите на должнсоть разработчика");
+            System.out.println("Вы подходите на должнсть разработчика");
         }
 
         int sum = 1000, code = 5984;
@@ -88,6 +88,8 @@ public class DecisionMaking {
             if (start % 2 == 0) System.out.println(start);
             start++;
         }
+
+
 
         //вывести все положительные элементы последовательности от 95 до 0
         for (int num = 95; num > 0; num -= 5)
